@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Contact | Bootstrap to WordPress</title>
+
+    <!--Bootstrap Core CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--FontAwesome Icons-->
+    <script src="https://kit.fontawesome.com/86ef990ea2.js"></script>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+
+    <!--Custom CSS-->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body class="full-width contact">
+
+<!--Header-->
+<header class="site-header" role="banner">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Bootstap to WordPress">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="blog.html">Blog</a>
+                    <a class="nav-item nav-link" href="resources.html">Resources</a>
+                    <a class="nav-item nav-link active" href="contact.html">Contact</a>
+                  </div>
+                </div>
+        </nav>
+</header>
+
+<section class="feature-image feature-image-default" data-type="background" data-speed="2">
+    <h1 class="page-title">Contact</h1>
+</section>
+
+<!--Main Content-->
+<div class="container">
+    <div class="row" id="primary">
+        <div id="content" class="col-sm-12">
+            <section class="main-content">
+                <p class="lead">Have any questions about the course? Feel free to get in touch with me! I&rsquo;ll do my best to get back to you ASAP.</p>
+                <form role="form" class="clearfix">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="contact-name" class="sr-only">Name</label>
+                                <input type="text" class="form-control input-lg" id="contact-name" placeholder="Your name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="contact-email" class="sr-only">Email</label>
+                                <input type="email" class="form-control input-lg" id="contact-email" placeholder="Your email">
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="contact-words" class="sr-only">Message</label>
+                                <textarea class="form-control input-lg" id="contact-words" placeholder="Your message" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-info btn-lg pull-right" value="Get in touch &raquo;">
+                </form>
+            
+            </section>
+        </div>
+    </div>
+</div>
+
+<!--Sign Up-->
+<section id="signup" data-type="background" data-speed="4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h2>Are you ready to take your coding skills to the <strong>next level?</strong></h2>
+                    <p><a href="#" class="btn btn-lg btn-block btn-success">Yes, sign me up!</a></p>
+                </div>
+            </div>
+        </div>
+</section>
+    
+<!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-3">
+                <p><a href="/"><img src="img/logo.png" alt="Bootstrap to WordPress"></a></p>
+            </div>
+                <div class="col-sm-6">
+                    <nav>
+                        <ul class="list-unstyled list-group-horizontal">
+                            <li class="list-unstyled-item"><a href="index.html">Home</a></li>
+                            <li class="list-unstyled-item"><a href="blog.html">Blog</a></li>
+                            <li class="list-unstyled-item"><a href="resources.html">Resources</a></li>
+                            <li class="list-unstyled-item"><a href="contact.html">Contact</a></li>
+                            <li class="list-unstyled-item signup-link"><a href="">Sign Up Now</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-3">
+                    <p class="pull-right">&copy; 2019 Matt Mullis</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!--MODAL-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel"><i class="fas fa-envelope"></i> Subscribe to our Mailing List!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-lable="Close">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Simply enter your name and email! As a thank you for joining us, we're going to give you one of our best-selling courses, <em>for FREE!</em></p>
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="subscribe-name">Your first name</label>
+                            <input type="text" class="form-control" id="subscribe-name" placeholder="Your first name">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="subscribe-email">and your email</label>
+                            <input type="text" class="form-control" id="subscribe-email" placeholder="and your email">
+                        </div>
+                        <input type="submit" class="bt btn-danger" value="Subscribe!">
+                    </form>
+                    <hr>
+                        <p><small>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. <br>No Spam. Just good stuff. We respect your privacy &amp; you make unsubsribe at any time.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--Bootstrap Core JavaScript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+    
+</body>
+</html>
