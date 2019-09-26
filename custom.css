@@ -2,7 +2,7 @@ body {
     margin-top: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    background: url('../img/tile.jpg') top left repeat;
+    background: url('./img/tile.jpg') top left repeat;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -83,7 +83,7 @@ img {
 }
 
 .modal-content {
-    background: url('../img/tile.jpg') top left repeat
+    background: url('./img/tile.jpg') top left repeat
 }
 
 .badge.social {
@@ -131,7 +131,7 @@ blockquote:before {
 }
 
 #hero {
-    background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
+    background: url('./img/hero-bg.jpg') 50% 0 repeat fixed;
     min-height: 500px;
     position: relative;
     display: table;
@@ -229,14 +229,14 @@ blockquote:before {
 }
 
 #featurette {
-    background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+    background: url('./img/stuff-bg.jpg') 50% 100% repeat fixed;
     background-size: cover;
     text-align: center;
     color: white;
 }
 
 #instructor {
-    background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
+    background: white url('./img/brad-elvis.png') 90% -10px no-repeat;
 }
 
 #instructor h2 {
@@ -282,7 +282,7 @@ blockquote:before {
 
 #signup {
     text-align: center;
-    background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+    background: url('./img/hipster-stuff.jpg') center center repeat fixed;
     background-size: cover;
     color: white;
     padding: 140px 0;
@@ -374,12 +374,12 @@ section h3 {
 }
 
 .feature-image-default {
-    background: url('../img/stuff-feature.jpg') no-repeat;
+    background: url('./img/stuff-feature.jpg') no-repeat;
     background-size: cover;
 }
 
 .feature-image-default-alt {
-    background: url('../img/hipster-stuff.jpg') no-repeat;
+    background: url('./img/hipster-stuff.jpg') no-repeat;
     background-size: cover;
 }
 
